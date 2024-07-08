@@ -1,0 +1,139 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* ================Home Start=============== */
+header{
+    background: linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)),url(../img/events-heavenly-header.jpg);
+    background-size: cover;
+    color: #fff;
+    
+
+}
+
+h2{
+    font-size: 60px;
+}
+.menu-btn{
+    font-size: 30px;
+    cursor: pointer;
+    
+    
+}
+.ss{
+    position: fixed;
+    top: 0;
+    left: -250px;
+    z-index: 3;
+}
+.side-bar{
+   width: 250px;
+   
+   
+
+    
+}
+.bg-black{  
+    background-color: #111;
+    
+}
+.side-bar a,.side-bar .fa-xmark{
+    color: #fff;
+    font-size: 25px;
+    margin: 20px 0;
+    transition: color 0.3s;
+    cursor: pointer;
+
+}
+
+.side-bar a:hover,.side-bar .fa-xmark:hover{
+    color: #D62E33;
+
+}
+/* ================Home End=============== */
+/* ================Duration Start=============== */
+.duration h3{
+    background-color: #E68285;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.pr{
+    background-color: #ccc;
+    padding: 10px;
+}
+/* ================Duration End=============== */
+/* ================Details Start=============== */
+.details{
+    background: linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)),url(../img/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-size: center;
+    color: #fff;
+}
+.p-100{
+    padding: 100px 0;
+}
+.inner {
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+/* ================Details End=============== */
+
+/* ================Contact Start=============== */
+.contact h2{
+    color: #444444;
+    font-size: 35px;
+    font-weight: 700;
+}
+.contact p ,.fa-envelope{
+    color: #777;
+    font-size: 16px;
+}
+.contact-info .ci{
+    color:#444;
+    font-size: 18px;
+    font-weight: 900;
+}
+.social a{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    color: #777;
+    transition: all 0.3s;
+}
+.social a:hover{
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+textarea{
+    height: 200px;
+}
+.fs16{
+    font-size: 16px;
+}
+.rem-char{
+    font-size: 20px;
+}
+.contact .mail{
+    color: #d62e33;
+}
+.btn-pink{
+    background-color: #D62E33;
+    color: white;
+}
+.btn:hover{
+    background-color: #D62E33;
+    color: white;
+}
+.contact .text-blc{
+    color: #212529;
+}
+/* ================Contact End=============== */
